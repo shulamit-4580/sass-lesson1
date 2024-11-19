@@ -1,0 +1,40 @@
+/*כל הזכויות שמורות לשולמית*/
+/*mixin*/
+/*ex 2*/
+@mixin fontStyle($font) {
+    font-size: medium;
+    font-family:font;
+    color: aliceblue;
+    background-color: aqua;
+}
+body {
+    @include fontStyle("'Segoe UI', Tahoma, Geneva, Verdana, sans-serif");
+    ul{
+        li{
+            a{
+                color: gray;
+                text-decoration: none;
+            }
+            input{
+                border-radius: 50%;
+                &:hover{opacity: 50%;}
+            }
+        }
+    }
+}
+/*ex 2*/
+@each $state, $color, $style in ((success, green, pointer ),(danger, red, pointer),(info, gray,help ),(warning, orange, auto)){
+        .text-#{$state}{
+            color: $color;
+            cursor: $style;
+            background-color: lighten($color,50);
+            font-weight: bold;
+            font-size: medium;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+}
+@for $i from 1 through 12 {
+ .column-#{$i}{
+    width: $i/12;
+ }
+}

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/*כל הזכויות שמורות לשולמית*/
+/*mixin*/
+/*ex 2*/
+body {
+  font-size: medium;
+  font-family: font;
+  color: aliceblue;
+  background-color: aqua;
+}
+body ul li a {
+  color: gray;
+  text-decoration: none;
+}
+body ul li input {
+  border-radius: 50%;
+}
+body ul li input:hover {
+  opacity: 50%;
+}
+
+/*ex 2*/
+.text-success {
+  color: green;
+  cursor: pointer;
+  background-color: #80ff80;
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-danger {
+  color: red;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-info {
+  color: gray;
+  cursor: help;
+  background-color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-warning {
+  color: orange;
+  cursor: auto;
+  background-color: white;
+  font-weight: bold;
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column-1 {
+  width: 0.0833333333;
+}
+
+.column-2 {
+  width: 0.1666666667;
+}
+
+.column-3 {
+  width: 0.25;
+}
+
+.column-4 {
+  width: 0.3333333333;
+}
+
+.column-5 {
+  width: 0.4166666667;
+}
+
+.column-6 {
+  width: 0.5;
+}
+
+.column-7 {
+  width: 0.5833333333;
+}
+
+.column-8 {
+  width: 0.6666666667;
+}
+
+.column-9 {
+  width: 0.75;
+}
+
+.column-10 {
+  width: 0.8333333333;
+}
+
+.column-11 {
+  width: 0.9166666667;
+}
+
+.column-12 {
+  width: 1;
+}/*# sourceMappingURL=styles.css.map */
